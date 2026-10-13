@@ -1,0 +1,46 @@
+/* Body styling and inheritance */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+/* Same background colour for header and footer */
+header, footer {
+    background-color: #E6D9F2;
+}
+
+/* Class selector for the main heading */
+.site-title {
+    color: #6A0DAD;
+}
+
+/* ID selector for the graduation photo */
+#my-image {
+    box-shadow: 0 0 2px 1px black;
+}
+
+/* Change hobby bullets to squares */
+.hobbies-list {
+    list-style-type: square;
+}
+
+/* Add a background to odd hobby items */
+.hobbies-list li:nth-child(odd) {
+    background-color: #F0E6F6;
+}
+
+/* Navigation links */
+nav a {
+    background-color: #E6D9F2;
+    border: 1px solid #6A0DAD;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px;
+    color: #6A0DAD;
+}
+
+/* Change navigation background on hover or keyboard focus */
+nav a:hover, nav a:focus {
+    background-color: #6A0DAD;
+    color: white;
+}
